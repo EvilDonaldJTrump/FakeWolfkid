@@ -5,6 +5,7 @@ const config = require('./config.json');
 const wolfaxtra = require('./wolfaxtra.js');
 var S = require('string');
 
+const unirest = require('unirest');
 const fs = require("fs");
 const bot = new Discord.Client({disableEveryone: true});
 bot.commands = new Discord.Collection();
