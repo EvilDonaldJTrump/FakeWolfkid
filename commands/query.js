@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
                 if (resources.body.error != null){
                   var errorStatus = new Discord.RichEmbed()
                      .setTitle('Bedrock Query Error')
-                     .setDescription('❌ You have entered a invalid **IP** and **Port**, or this server is __offline__!')
+                     .setDescription('You have entered a invalid **IP** and **Port**, or this server is __offline__!')
                      .setColor('RANDOM')
 		     .setTimestamp(new Date())
 		     .setFooter(`Please try again later, ${message.author.username}`, `${message.author.avatarURL}`)
